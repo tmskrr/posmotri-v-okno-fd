@@ -8,6 +8,8 @@ html {
   block-size: 100%;
 }
 
+/*Наталья, спасибо за комментарии!) вроде, все учла*/
+
 h1,
 h2,
 h3,
@@ -262,10 +264,10 @@ ol {
 }
 
 .content__list-item {
-display: flex;
-flex-direction: column;
-gap: 26px;
-padding: 0 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 0 3px;
 }
 
 .content__card-link_current {
@@ -290,15 +292,15 @@ padding: 0 3px;
 }
 
 .content__video-card {
- display: flex;
- align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 
 .content__video-card-thumbnail {
-width: 194px;
-height: 103px;
-object-fit: cover;
-object-position: center;
+  width: 194px;
+  height: 103px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content__video-card-description-container {
