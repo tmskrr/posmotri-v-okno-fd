@@ -92,12 +92,15 @@ ol {
 }
 
 .search-form__label:hover {
-  text-decoration: underline;
   cursor: pointer;
 }
 
 .search-form__label:has(:focus) {
   outline: 1px solid #fff;
+}
+
+.search-form__label-text:hover {
+text-decoration: underline;
 }
 
 .search-form__textfield {
@@ -121,9 +124,7 @@ ol {
   color: #fff;
 }
 
-.search-form__textfield:hover {
-  text-decoration: none;
-}
+
 
 .search-form__pseudo-checkbox {
   display: flex;
@@ -284,7 +285,6 @@ ol {
   line-height: 94%;
   text-transform: uppercase;
 }
-
 .content__accent {
   color: #545050;
   text-transform: uppercase;
