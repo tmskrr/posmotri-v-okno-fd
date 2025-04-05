@@ -99,10 +99,6 @@ ol {
   outline: 1px solid #fff;
 }
 
-.search-form__label-text:hover {
-text-decoration: underline;
-}
-
 .search-form__textfield {
   font-weight: 400;
   font-size: 18px;
@@ -141,6 +137,10 @@ text-decoration: underline;
   height: 15px;
   background-color: #fff;
   display: none;
+}
+
+.search-form__pseudo-checkbox:hover + .search-form__label-text {
+  text-decoration: underline;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -247,8 +247,14 @@ text-decoration: underline;
   outline: 1px solid #fff;
 }
 
-.content__card-link:hover {
+.content__card-link:hover .content__video-card-title,
+.content__card-link:hover .content__video-card-description {
   text-decoration: underline;
+}
+
+.content__video-card-title,
+.content__video-card-description {
+  padding-bottom: 4px;
 }
 
 .content__card-link:active {
@@ -283,6 +289,7 @@ text-decoration: underline;
   line-height: 94%;
   text-transform: uppercase;
 }
+
 .content__accent {
   color: #545050;
   text-transform: uppercase;
